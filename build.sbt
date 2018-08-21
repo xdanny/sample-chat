@@ -28,7 +28,6 @@ lazy val root = (project in file("."))
   "com.github.pureconfig" %% "pureconfig"                 % PureConfigVersion,
   "org.flywaydb"          %  "flyway-core"                % FlywayVersion,
   "io.dropwizard.metrics" % "metrics-core"                % "4.0.3",
-  "com.typesafe.akka"     %% "akka-actor"                 % "2.5.14",
-  "com.typesafe.akka"     %% "akka-testkit"               % "2.5.14" % Test
+  "com.github.gvolpe"     % "fs2-redis_2.12"              % "0.1.0"
 )
 )
